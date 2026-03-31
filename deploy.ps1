@@ -6,4 +6,4 @@ try { docker rm tp5docker } catch {}
 docker pull votre_UsernameDocker/flask_devops_cd:latest
 
 # Lancer le conteneur
-docker run -d --name tp5docker -p 5000:5000 votre_UsernameDocker/flask_devops_cd:latest
+docker run -d --name tp5docker -p 5000:5000 votre_UsernameDocker/tp5docker:latest
